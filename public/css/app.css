@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("https://www.lamolisana.it/wp-content/uploads/2019/11/dettagli-1.png");
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  list-style: none;
+}
+
+header nav a {
+  color: #002d75;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header li {
+  margin: 0 10px;
+}
+
+main .cards h2 {
+  margin: 25px 0px 10px 10px;
+}
+
+main .card {
+  display: inline-block;
+  margin: 10px 0px 5px 10px;
+}
+
+main .card img {
+  width: 300px;
+}
+
+main .container {
+  position: relative;
+}
+
+main .container .titolo-container {
+  opacity: 0;
+  position: absolute;
+  transform: translateY(-100%);
+  padding-top: 70px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+main .container .titolo-container:hover {
+  opacity: 1;
+}
+
+main .container .titolo-container i {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
