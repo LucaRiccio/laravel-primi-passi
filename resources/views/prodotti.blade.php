@@ -137,10 +137,16 @@ foreach ($cards as $card){
   }
 }
 
-
 @endphp
 
-<!DOCTYPE html>
+
+@extends('layout.app')
+
+@section('titolo')
+  Prodotti
+@endsection
+
+{{-- <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -149,12 +155,12 @@ foreach ($cards as $card){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
     <title>La Molisana</title>
   </head>
-  <body>
-    @include('partials.header')
+  <body> --}}
+    {{-- @include('partials.header') --}}
 
-    <main>
+    {{-- <main> --}}
+    @section('main')
       <div class="cards">
-
         <h2>Le Lunghe</h2>
         @foreach ($lunghe as $card)
           <div class="card">
@@ -193,9 +199,9 @@ foreach ($cards as $card){
             </div>
           </div>
         @endforeach
-
       </div>
-    </main>
+    @endsection
+    {{-- </main> --}}
 
-  </body>
-</html>
+  {{-- </body>
+</html> --}}
