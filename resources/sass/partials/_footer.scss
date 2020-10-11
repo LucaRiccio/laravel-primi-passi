@@ -1,0 +1,42 @@
+footer{
+  background-image: url('https://www.lamolisana.it/wp-content/uploads/2020/06/footer-montagne-bottom.jpg');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: #0d2240;
+  margin-top: 60px;
+  padding-bottom: 150px;
+
+
+  .logo-footer{
+    display: inline-block;
+    margin-right: 80px;
+  }
+
+  a{
+    text-decoration: none;
+    color:#808080;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .pastificio,.prodotti,.prodotti,.collezione,.news{
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 45px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+}

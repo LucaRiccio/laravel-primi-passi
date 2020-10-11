@@ -30,6 +30,10 @@ header li {
   margin: 0 10px;
 }
 
+main .cards {
+  color: #0d2240;
+}
+
 main .cards h2 {
   margin: 25px 0px 10px 10px;
 }
@@ -37,6 +41,7 @@ main .cards h2 {
 main .card {
   display: inline-block;
   margin: 10px 0px 5px 10px;
+  color: #0d2240;
 }
 
 main .card img {
@@ -64,5 +69,39 @@ main .container .titolo-container:hover {
 main .container .titolo-container i {
   font-size: 25px;
   padding-top: 10px;
+}
+
+footer {
+  background-image: url("https://www.lamolisana.it/wp-content/uploads/2020/06/footer-montagne-bottom.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: #0d2240;
+  margin-top: 60px;
+  padding-bottom: 150px;
+}
+
+footer .logo-footer {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #808080;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer .pastificio,
+footer .prodotti,
+footer .prodotti,
+footer .collezione,
+footer .news {
+  display: inline-block;
+  margin-right: 80px;
+  margin-top: 45px;
 }
 
