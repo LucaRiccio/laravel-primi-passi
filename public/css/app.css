@@ -21,7 +21,8 @@ header nav {
 }
 
 header nav a {
-  color: #002d75;
+  font-weight: bold;
+  color: #0d2240;
   text-decoration: none;
   font-size: 20px;
 }
@@ -69,6 +70,26 @@ main .container .titolo-container:hover {
 main .container .titolo-container i {
   font-size: 25px;
   padding-top: 10px;
+}
+
+main .contatti {
+  text-align: center;
+  background-color: white;
+  margin-top: 110px;
+}
+
+main .contatti-top {
+  color: #0d2240;
+  font-size: 20px;
+}
+
+main .contatti-bottom {
+  margin-top: 30px;
+  color: #808080;
+}
+
+main .contatti-bottom a {
+  color: #808080;
 }
 
 footer {

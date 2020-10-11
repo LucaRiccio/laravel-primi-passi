@@ -35,4 +35,25 @@ main {
       }
     }
   }
+
+  .contatti {
+    text-align: center;
+    background-color: white;
+    margin-top: 110px;
+
+  }
+
+  .contatti-top {
+
+    color: #0d2240;
+    font-size: 20px;
+  }
+
+  .contatti-bottom {
+    margin-top: 30px;
+    color: #808080;
+    a{
+      color: #808080;
+    }
+  }
 }
